@@ -1,0 +1,55 @@
+﻿.navbar {
+    background-image: url('../images/Amman2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #000 !important;
+}
+
+.text-bg-dark {
+    color: #fff !important;
+}
+
+span.nav-title {
+    color: black;
+    font-weight: 800;
+}
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+a.btn.btn-primary,
+button.btn.btn-primary.w-100,
+h5.mb-0 {
+    font-family: 'Cairo', sans-serif;
+}
+
+svg {
+    height: 15px;
+    width: 12px;
+}
+
+.sticky-navbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header-2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 150px; /* Adjust based on header height */
+}

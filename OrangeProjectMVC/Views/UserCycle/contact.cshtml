@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+
+<!--Contact Section ======================-->
+<section class="section-contact contact-3 pt-60 pt-lg-100 pt-xxl-120 pb-40">
+    <div class="container">
+        <div class="contact-form-wrapper bg-custom-light p-4 p-lg-40">
+            <h2 class="mb-30 mb-lg-40 text-lg-center wow fadeInUp">Get In Touch With Us</h2>
+
+            <form id="contactForm" class="contact-form row g-30 wow slideInUp">
+                <div class="col-md-6">
+                    <label for="InputName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="InputName" name="InputName" required="">
+                </div>
+                <div class="col-md-6">
+                    <label for="InputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="InputLastName" name="InputLastName" required="">
+                </div>
+                <div class="col-md-6">
+                    <label for="InputEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" required="">
+                </div>
+                <div class="col-md-6">
+                    <label for="InputNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="InputNumber" name="InputNumber" required="">
+                </div>
+                <div class="col-12">
+                    <label for="InputSubject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="InputSubject" name="InputSubject">
+                </div>
+                <div class="col-12">
+                    <label for="InputMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="InputMessage" name="InputMessage" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                </div>
+                <div class="response py-1"></div>
+            </form>
+        </div>
+        <!-- contact-form-wrapper -->
+    </div>
+    <!-- container -->
+</section>
+<!--Contact Section ======================-->
+<!--Contact Section ======================-->
+<section class="section-contact contact-4 pt-40 pt-lg-60 pb-60 pb-lg-100 pb-xxl-120">
+    <div class="container">
+
+        <div class="row contact-lists justify-content-xl-center gy-20 align-items-center">
+
+            <div class="col-xl-3">
+                <div class="d-flex gap-20 align-items-center">
+                    <span class="contact-icon mail-icon text-white">
+                        <svg width="22" height="18"><use xlink:href="#mail-icon"></use></svg>
+                    </span>
+                    <h5 class="mb-0 fw-semibold"><a href="mailto:info@politixy.com" class="text-decoration-none link-hover-animation-1">info@iec.jo</a></h5>
+                </div>
+            </div>
+            <!-- col-3 -->
+
+            <div class="col-xl-4 col-xxl-3">
+                <div class="d-flex gap-20 align-items-center">
+                    <span class="contact-icon phone-icon text-white">
+                        <svg width="24" height="24"><use xlink:href="#phone-icon"></use></svg>
+                    </span>
+                    <h5 class="mb-0 fw-semibold">
+                        <a href="tel:(+0123)234556789" class="text-decoration-none link-hover-animation-1"></a>تلفون: 5531111 6 00962
+
+                    </h5>
+                </div>
+            </div>
+            <!-- col-3 -->
+
+            <div class="col-xl-4">
+                <div class="d-flex gap-20 align-items-center">
+                    <span class="contact-icon location-icon text-white">
+                        <svg width="22" height="22"><use xlink:href="#location-icon"></use></svg>
+                    </span>
+                    <h5 class="mb-0 fw-semibold"><a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-1" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">منطقة تلاع العلي - شارع إسماعيل حجازي بجانب مبنى ديوان المحاسبة</a></h5>
+                </div>
+            </div>
+            <!-- col-3 -->
+        </div>
+        <!-- row -->
+
+        
+    </div>
+    <!-- container -->
+</section>
+<!--Contact Section ======================-->	
